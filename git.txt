@@ -8,6 +8,9 @@ git branch -M main
 git remote add origin https://github.com/IssaShergy/Authjwt.git
 git push -u origin main
 
+#-u: The -u flag creates a tracking reference for every branch that you successfully push onto
+# the remote repository.
+
 …or push an existing repository from the command line
 git remote add origin https://github.com/IssaShergy/Authjwt.git
 git branch -M main
@@ -18,3 +21,6 @@ git status
 git add .
 git commit -m "note"
 git push  origin  main
+
+git pull origin  main
+git push origin main
