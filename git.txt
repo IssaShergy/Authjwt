@@ -1,0 +1,19 @@
+git remote add origin https://github.com/OWNER/REPOSITORY.git
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/IssaShergy/Authjwt.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/IssaShergy/Authjwt.git
+git branch -M main
+git push -u origin main
+
+git remote show origin   or git remote -v
+git status
+git add .
+git commit -m "note"
+git push  origin  main
