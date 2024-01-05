@@ -2,3 +2,7 @@ npm create vite@latest frontend -- --template react
 cd /frontend
 npm install
 npm run  dev
+npm install react-icons --save
+# React-Toastify allows you to add notifications to your app with ease. No more nonsense!
+#https://github.com/fkhadra/react-toastify
+npm install --save react-toastify
